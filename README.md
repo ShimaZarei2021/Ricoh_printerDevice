@@ -1,2 +1,2 @@
 # Ricoh-Printer-device
-Data set is related to printer device of RIcoh company
+Data set is related to printer device of Ricoh company, Milan-Italy. The aim of this project is to detect the case of issues in this device and find out by which sectors of experts (Call center, Technician, Engineer) this problems could be fixed in future and what is the proportion of problem solving by each sector of experts. This data set is a categorical type of data in which consist of both numerical and non numerical and text data. To this end, sqlite commands are used for data prepration and also different methods of machine learning are implemented in order to forecast the future of data.
