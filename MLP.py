@@ -28,7 +28,7 @@ df = pd.get_dummies(df)
 X = df.iloc[:, 5:10].values
 y = df.iloc[:, 12].values
 
-'''
+
 from sklearn.preprocessing import LabelEncoder
 labelencoder_X_1 = LabelEncoder()
 X[:, 1] = labelencoder_X_1.fit_transform(X[:, 1])
@@ -44,7 +44,6 @@ X[:, 5] = labelencoder_X_5.fit_transform(X[:, 5])
 print(X[:, 1])
 #X = pd.DataFrame(X)
 X = pd.get_dummies(X[:, 1])
-'''
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
